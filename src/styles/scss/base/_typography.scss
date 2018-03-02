@@ -1,0 +1,37 @@
+
+/* Body, html
+-------------------------------------------------------------- */
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 26px;
+  line-height: 2.6rem;
+  color: $font-color;
+
+  @media #{$media-lg-xl}{
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}
+
+/* Headers
+-------------------------------------------------------------- */
+h1, h2, h3, h4, h5{
+}
+
+h1{
+
+
+}
+
+
+/* Text, Links
+-------------------------------------------------------------- */
+a{
+
+}
