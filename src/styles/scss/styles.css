@@ -2,6 +2,10 @@
 -------------------------------------------------------------- */
 /* Fonts
 -------------------------------------------------------------- */
+@font-face {
+  font-family: 'BebasNeue';
+  src: url("./../../assets/fonts/BebasNeue-Regular.otf"); }
+
 /* Colors
 -------------------------------------------------------------- */
 /* Typography
@@ -537,6 +541,7 @@ body {
   font-size: 1.6rem;
   line-height: 26px;
   line-height: 2.6rem;
+  font-family: "Helvetica", "Arial", sans-serif;
   color: #fff; }
   @media only screen and (min-width: 1800px) {
     body {
@@ -545,18 +550,48 @@ body {
 
 /* Headers
 -------------------------------------------------------------- */
+h1 {
+  margin: 0;
+  font-size: 7rem;
+  line-height: 1;
+  font-family: "BebasNeue", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 1.5px; }
+  @media only screen and (min-width: 1200px) {
+    h1 {
+      font-size: 8rem; } }
+  @media only screen and (min-width: 1800px) {
+    h1 {
+      font-size: 9.2rem; } }
+
 /* Text, Links
 -------------------------------------------------------------- */
+a {
+  text-decoration: none;
+  color: #fff; }
+
 /* Layout
 -------------------------------------------------------------- */
+.container {
+  max-width: 1550px;
+  padding: 20px;
+  margin: 0 auto; }
+  @media only screen and (min-width: 1200px) {
+    .container {
+      max-width: 1150px; } }
+  @media only screen and (min-width: 1800px) {
+    .container {
+      max-width: 1550px; } }
+
 /* Components
 -------------------------------------------------------------- */
 /* Button
 -------------------------------------------------------------- */
 .button {
+  padding: 15px 50px;
   background: none;
-  border: 0;
-  font-size: 14px;
-  font-size: 1.4rem;
+  color: #fff;
+  border: 1px solid;
+  font-size: 18px;
+  font-size: 1.8rem;
   text-align: left;
   cursor: pointer; }

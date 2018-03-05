@@ -2,10 +2,12 @@
 -------------------------------------------------------------- */
 .button {
   $parent: &;
+  padding: 15px 50px;
   background: none;
-  border: 0;
-  font-size: 14px;
-  font-size: 1.4rem;
+  color: $font-color;
+  border: 1px solid;
+  font-size: 18px;
+  font-size: 1.8rem;
   text-align: left;
   cursor: pointer;
 }
